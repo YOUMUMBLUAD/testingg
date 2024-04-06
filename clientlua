@@ -1,11 +1,1 @@
-local player = game.Players.LocalPlayer
-
-setclipboard(game:GetService("RbxAnalyticsService"):GetClientId())
-game.StarterGui:SetCore("SendNotification", {
-                        Title = "HarlemHub Whitelist";
-                        Text = "Copied your HWID.";
-                        Icon = "https://www.roblox.com/library/3971489730/Money-icon?Category=Decals&SortType=Relevance&SortAggregation=AllTime&SearchKeyword=money+icon&CreatorId=0&Page=1&Position=6&SearchId=312fffd7-bfc2-4f93-90d3-9c87a6154f2d";
-                        Duration = "3";
-                    })
-wait(3)
-player:Kick("Your HWID has been copied! Send the copied message to the owner for a whitelist. After you have sent it to him, follow the next steps in the ' #script ' channel.")
+loadstring(game:HttpGet('https://pastebin.com/raw/kSDmGvRe'))()
